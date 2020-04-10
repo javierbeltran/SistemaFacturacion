@@ -55,6 +55,9 @@
         ddlCategoria.SelectedValue = item.Categoria
 
         cmdGuardar.Visible = True
+
+        lblAlerta.Visible = False
+        lblSuccess.Visible = False
     End Sub
 
     Private Sub cmdGuardar_Click(sender As Object, e As EventArgs) Handles cmdGuardar.Click
